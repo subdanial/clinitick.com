@@ -1,0 +1,37 @@
+#theme-main-banner .container .button-grp,.theme-main-header.fixed {background: #4031AD}
+
+.theme-title h2,.our-features .single-feature i,.theme-footer .bottom-footer .footer-menu li a:hover,
+.theme-footer .footer-main-content .footer-list ul li a:hover,#theme-main-banner.banner-three .container .button-grp:hover,
+.blog-details .blog-meta-wrapper .social-share li:hover a,.blog-details .blog-meta-wrapper .post-meta-data .sub-heading {color: #4031AD;}
+
+#theme-main-banner .container .button-grp:hover {background:#4031AD}
+
+.theme-counter .single-box .wrapper {background:#4031AD}
+
+.scroll-top,body .theme-button,.theme-footer .bottom-footer .social-icon li a,.theme-footer .footer-main-content .footer-logo .social-icon li a,.theme-pagination ul li a {
+	background-image: -webkit-linear-gradient(88deg, #4031AD 0%, #4031AD 100%);
+	background-image: -o-linear-gradient(88deg, #4031AD 0%, #4031AD 100%);
+	background-image: linear-gradient(178deg, #4031AD 0%, #4031AD 100%);
+}
+
+body .theme-button span,.theme-footer .bottom-footer .social-icon li a:hover,.theme-footer .footer-main-content .footer-logo .social-icon li a:hover,.theme-pagination ul li a:hover,
+.theme-pagination ul li.active a {
+	background-image: -webkit-linear-gradient(272deg,rgb(54,219,150) 0%, rgb(54,219,150) 100%);
+	background-image: -o-linear-gradient(272deg, rgb(54,219,150) 0%, rgb(54,219,150) 100%);
+	background-image: linear-gradient(2deg, rgb(54,219,150) 0%, rgb(54,219,150) 100%);
+}
+
+.pricing-plan-section .col-inner .table-inner .price {color: #efbb19;}
+
+.pricing-plan-section .col-inner .table-inner:hover .price,
+.pricing-plan-section .col-inner .table-inner:hover h6 {
+	color: #fff;
+}
+
+.pricing-plan-section .col-inner .table-inner:hover ul li {color: rgba(255,255,255,0.8);}
+
+.pricing-plan-section .col-inner .table-inner:hover .theme-button {background: #ffffff;color: #767482;}
+
+.pricing-plan-section .col-inner .table-inner:hover {background: #4031AD;}
+
+.theme-main-header .navbar-nav .button-group a:hover {background: #4031AD;}

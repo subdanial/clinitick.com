@@ -1,0 +1,119 @@
+@font-face {
+    font-family: kalameh;
+    src: url('../fonts/KalamehWeb_Regular.woff2');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: kalameh;
+    src: url('../fonts/KalamehWeb_Bold.woff2');
+    font-weight: bold;
+}
+
+$primary : #4031AD;
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: 'kalameh' !important;
+}
+
+.rtl {
+    direction: rtl !important;
+}
+
+.w-50 {
+    width: 50% !important;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.theme-main-header .logo {
+    margin-top: -20px;
+}
+
+.d-none {
+    display: none !important;
+}
+
+li {
+    &.u-active {
+        background-color: #36DB96;
+    }
+
+    &.u-home {
+        padding-right: 30px;
+        border-radius: 35px;
+    }
+}
+
+.customers-need .shape-one.color-two {
+    background: rgb(64, 49, 173);
+    background: linear-gradient(270deg, rgba(64, 49, 173, 1) 20%, rgba(64, 49, 173, 0.6040616930365896) 100%);
+}
+
+
+.theme-main-header.fixed {
+    .logo img {
+        height: 68px;
+        padding-top: 18px;
+    }
+}
+
+.bg-white {
+    background-color: white !important;
+}
+
+.owl-item.active {
+    transition: all 0.8s;
+    opacity: 0.4;
+    filter: blur(2px);
+    transform: scale(0.8);
+}
+
+.owl-item.active.center {
+    transition: all 0.8s;
+
+    opacity: 1 !important;
+    filter: blur(0);
+    transform: scale(1);
+
+}
+
+@media (max-width: 992px) {
+    .w-100-desk {
+        width: 100% !important;
+    }
+
+    .logo {
+        img{
+            padding-top: 1.2rem;
+            width: 60%;
+        }
+    }
+
+    .theme-main-header.fixed {
+        .logo img {
+            height: 100%;
+            padding-top: 18px;
+        }
+    }
+}
