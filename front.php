@@ -141,7 +141,7 @@
 							</div> <!-- /.col- -->
 							<div class="col-md-4 col-sm-6 col-xs-12">
 								<div class="single-feature">
-									<i class="flaticon-settings bg-white"></i>
+									<i class="flaticon-settings"></i>
 									<h3><?php echo ot_get_option('f3_title'); ?></h3>
 									<p style="word-wrap: break-word;">
 										<?php echo ot_get_option('f3_describe'); ?>
