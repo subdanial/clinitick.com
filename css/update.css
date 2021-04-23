@@ -109,4 +109,11 @@ li.u-home {
     padding-top: 18px;
   }
 }
+
+#theme-main-banner .container {
+  position: relative;
+  top: 40%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
 /*# sourceMappingURL=update.css.map */
