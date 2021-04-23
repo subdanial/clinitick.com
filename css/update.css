@@ -132,4 +132,8 @@ li.u-home {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
+
+.our-features .single-feature p {
+  font-family: 'yekan';
+}
 /*# sourceMappingURL=update.css.map */
