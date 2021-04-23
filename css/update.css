@@ -10,6 +10,18 @@
   font-weight: bold;
 }
 
+@font-face {
+  font-family: yekan;
+  src: url("../fonts/yekan_regular.woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: yekan;
+  src: url("../fonts/yekan_bold.woff");
+  font-weight: bold;
+}
+
 html,
 body,
 h1,
@@ -24,7 +36,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'kalameh' !important;
+  font-family: 'yekan' !important;
 }
 
 .rtl {
