@@ -48,7 +48,7 @@
 			<header class="theme-main-header">
 				<div class="container">
 					<div class="menu-wrapper clearfix">
-						<div class="logo float-left"><a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/images/logo/logo.png" alt="Logo"></a></div>
+						<div class="logo float-left"><a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/images/logo/logo.svg" alt="Logo"></a></div>
 						<!-- ========================= Theme Feature Page Menu ======================= -->
 						<nav class="navbar theme-main-menu one-page-menu float-right">
 							<!-- Brand and toggle get grouped for better mobile display -->
