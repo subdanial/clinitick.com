@@ -120,7 +120,7 @@
 
 				<div class="main-container">
 					<div class="shape-one left wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="1s"></div>
-					<img src="<?php echo get_template_directory_uri(); ?>/images/home/shape-16.png" alt="" class="shape-two right">
+					<img src="<?php echo get_template_directory_uri(); ?>/images/home/shape-16.png" alt="" class="shape-two d-none right">
 					<div class="container">
 						<div class="row rtl ">
 							<div class="col-md-4 col-sm-6 col-xs-12">
