@@ -179,8 +179,17 @@ li.u-home {
 }
 
 .app-item {
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  -webkit-transform: scale(1);
+          transform: scale(1);
   padding: 25px;
   border-radius: 15px;
   cursor: pointer;
+}
+
+.app-item:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 /*# sourceMappingURL=update.css.map */
