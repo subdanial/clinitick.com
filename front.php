@@ -166,7 +166,7 @@
 				<div class="customers-need">
 					<div class="shape-one color-two wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s"></div>
 					<div class="container">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/home/shape-1.png" alt="" class="shape-two wow zoomIn" data-wow-duration="1s" data-wow-delay="1.2s">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/home/shape-1.png" data-number="n1" class="js-app_pic   shape-two wow zoomIn" data-wow-duration="1s" data-wow-delay="1.2s">
 						<div class="row">
 							<div class="col-md-8 text-wrapper float-right">
 								<div class="wrapper">
@@ -176,17 +176,17 @@
 									</div>
 
 									<ul class="rtl">
-										<li class="shadow js-item app-item">
+										<li class="shadow js-item app-item" data-number='n1'>
 
 											<h3><?php echo ot_get_option('app1_title'); ?></h3>
 											<p> <?php echo ot_get_option('app1_describe'); ?> </p>
 										</li>
-										<li class="shadow js-item app-item">
+										<li class="shadow js-item app-item " data-number='n2'>
 											<h3><?php echo ot_get_option('app2_title'); ?></h3>
 											<p> <?php echo ot_get_option('app2_describe'); ?> </p>
 
 										</li>
-										<li class="shadow js-item app-item">
+										<li class="shadow js-item app-item" data-number='n3'>
 											<h3><?php echo ot_get_option('app3_title'); ?></h3>
 											<p> <?php echo ot_get_option('app3_describe'); ?> </p>
 										</li>
@@ -280,7 +280,7 @@
 								<div class="col-md-7">
 									<h2 class="rtl text-center mt-5  mx-auto">دانلود اپلیکیشن کلینیتیک</h2>
 									<div class=" d-block text-center mx-auto rtl" style="margin-top: -40px; ">
-									<p class="lead">آسوده کردن زندگی کاری دندان پزشکان</p>
+										<p class="lead">آسوده کردن زندگی کاری دندان پزشکان</p>
 										<a href="<?php echo ot_get_option('android_link'); ?>" class="wow text-center btn-download" data-wow-delay="0.499s"><img src="<?php echo get_template_directory_uri(); ?>/images/play.png" alt=""></a>
 										<a href="<?php echo ot_get_option('ios_download'); ?>" class="wow text-center btn-download " data-wow-delay="0.499s"><img src="<?php echo get_template_directory_uri(); ?>/images/app.png" alt=""></a>
 									</div>
@@ -369,6 +369,30 @@
 		<script src="<?php echo get_template_directory_uri(); ?>/js/theme.js"></script>
 
 	</div> <!-- /.main-page-wrapper -->
+
+	<script>
+		var image = $('.js-app_pic');
+		var selected_item_number = 1;
+
+		$('.js-item').click(function() {
+			selected_item_number = $(this).attr('data-number');
+			image.fadeOut(function() {
+				switch (selected_item_number) {
+					case 'n1':
+						image.attr('src', '<?php echo get_template_directory_uri(); ?>/images/home/shape-1.png')
+						break;
+					case 'n2':
+						image.attr('src', '<?php echo get_template_directory_uri(); ?>/images/home/shape-2.png')
+						break;
+					case 'n3':
+						image.attr('src', '<?php echo get_template_directory_uri(); ?>/images/home/shape-3.png')
+						break;
+					}
+					image.fadeIn()
+			})
+		})
+	</script>
+
 </body>
 
 
