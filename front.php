@@ -166,7 +166,7 @@
 				<div class="customers-need">
 					<div class="shape-one color-two wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s"></div>
 					<div class="container">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/home/shape-1.png" data-number="n1" class="js-app_pic   shape-two wow zoomIn" data-wow-duration="1s" data-wow-delay="1.2s">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/home/shape-1.png" data-number="n1" class="js-app_pic  d-none-mobile shape-two wow zoomIn" data-wow-duration="1s" data-wow-delay="1.2s">
 						<div class="row">
 							<div class="col-md-8 text-wrapper float-right">
 								<div class="wrapper">
