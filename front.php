@@ -11,7 +11,7 @@
 	<!-- For Resposive Device -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>Clinitick</title>
+	<title><?php  echo get_bloginfo('title') ?></title>
 
 
 
@@ -119,7 +119,7 @@
 				</div> <!-- /.container -->
 
 				<div class="main-container">
-					<div class="shape-one left wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="1s"></div>
+					<div class="shape-one right wow slideInRight" data-wow-duration="1.5s" data-wow-delay="1s"></div>
 					<img src="<?php echo get_template_directory_uri(); ?>/images/home/shape-16.png" alt="" class="shape-two d-none right">
 					<div class="container">
 						<div class="row rtl ">
@@ -241,7 +241,7 @@
 				-->
 			<div class="client-section style-two">
 				<div class="main-content-wrapper">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/home/shape-13.png" alt="" class="shape-one">
+					<img src="<?php echo get_template_directory_uri(); ?>/images/home/shape-17.png" alt="" class="shape-one">
 					<div class="container">
 						<div class="video-content">
 							<div class="opacity">
@@ -371,6 +371,5 @@
 	</div> <!-- /.main-page-wrapper -->
 </body>
 
-<!-- Mirrored from themazine.com/html/boltu/html/index-3.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 15 Apr 2021 17:24:57 GMT -->
 
 </html>

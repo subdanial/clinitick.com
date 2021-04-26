@@ -795,7 +795,7 @@ body .theme-button:hover span {opacity: 1;}
 .client-section .shape-one {
   position: absolute;
   top:60px;
-  left:0;
+  right:0;
   z-index: -1;
 }
 #client-slider .MS-content {

@@ -79,8 +79,8 @@ li.u-home {
 
 .customers-need .shape-one.color-two {
   background: #4031ad;
-  background: -webkit-gradient(linear, right top, left top, color-stop(20%, #4031ad), to(rgba(64, 49, 173, 0.604062)));
-  background: linear-gradient(270deg, #4031ad 20%, rgba(64, 49, 173, 0.604062) 100%);
+  background: -webkit-gradient(linear, right top, left top, color-stop(20%, #4031ad), to(rgba(63, 49, 173, 0.808)));
+  background: linear-gradient(270deg, #4031ad 20%, rgba(63, 49, 173, 0.808) 100%);
 }
 
 .theme-main-header.fixed .logo img {
