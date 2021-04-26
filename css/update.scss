@@ -162,8 +162,9 @@ li {
     z-index: 1;
     transform: rotate(0deg);
 }
+
 .text-center {
-    p{
+    p {
         text-align: center;
     }
 }
@@ -182,24 +183,29 @@ li {
 .customers-need .text-wrapper ul li {
     position: relative;
     padding-left: 50px;
-    
-    &:first-child{
+
+    &:first-child {
         margin-top: -10px;
 
     }
 }
 
 .shadow {
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
 }
-.app-item{
+
+.app-item {
     transition: 0.3s all;
     transform: scale(1);
-    padding:25px;
+    padding: 25px;
     border-radius: 15px;
     cursor: pointer;
-    &:hover{
-    transform: scale(1.05);
 
+    &:hover {
+        transform: scale(1.05);
     }
+}
+
+@media (max-width:992px) {
+    .d-none-mobile {display: none;}
 }
