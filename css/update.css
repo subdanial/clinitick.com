@@ -136,4 +136,17 @@ li.u-home {
 .our-features .single-feature p {
   font-family: 'yekan';
 }
+
+.btn-download img {
+  height: 58px;
+  margin: 10px;
+}
+
+.download-section .text-wrapper .image-wrapper-one {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
 /*# sourceMappingURL=update.css.map */

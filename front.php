@@ -11,7 +11,7 @@
 	<!-- For Resposive Device -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title><?php  echo get_bloginfo('title') ?></title>
+	<title><?php echo get_bloginfo('title') ?></title>
 
 
 
@@ -227,7 +227,7 @@
 						</div>
 					</div> <!-- /.main-sldier-wrapper -->
 
-					<img src="<?php echo get_template_directory_uri(); ?>/images/home/mockup-2.png"  class="mockup-two">
+					<img src="<?php echo get_template_directory_uri(); ?>/images/home/mockup-2.png" class="mockup-two">
 				</div> <!-- /.screenshot-container -->
 			</div> <!-- /.app-screenshot -->
 
@@ -273,16 +273,16 @@
 				</div>
 
 				<div class="main-content">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/home/shape-17.png" alt="" class="shape-one right-side wow slideInRight" data-wow-duration="1.5s" data-wow-delay="0.2s">
+					<!-- <img src="<?php echo get_template_directory_uri(); ?>/images/home/shape-17.png" alt="" class="shape-one right-side wow slideInRight" data-wow-duration="1.5s" data-wow-delay="0.2s"> -->
 					<div class="container">
 						<div class="text-wrapper">
 							<div class="row">
 								<div class="col-md-7">
-									<h2 class="rtl text-center  mx-auto">دانلود اپلیکیشن</h2>
-
+									<h2 class="rtl text-center mt-5  mx-auto">دانلود اپلیکیشن کلینیتیک</h2>
 									<div class=" d-block text-center mx-auto rtl" style="margin-top: -40px; ">
-										<a href="<?php echo ot_get_option('android_link'); ?>" class="wow text-center  rollIn theme-button" data-wow-delay="0.499s"><span></span> دانلود از گوگل پلی <i class="flaticon-google-play"></i></a>
-										<a href="<?php echo ot_get_option('ios_download'); ?>" class="wow text-center rollIn theme-button" data-wow-delay="0.499s"><span></span> دانلود از اپ استور <i class="flaticon-logo"></i></a>
+									<p class="lead">آسوده کردن زندگی کاری دندان پزشکان</p>
+										<a href="<?php echo ot_get_option('android_link'); ?>" class="wow text-center btn-download" data-wow-delay="0.499s"><img src="<?php echo get_template_directory_uri(); ?>/images/play.png" alt=""></a>
+										<a href="<?php echo ot_get_option('ios_download'); ?>" class="wow text-center btn-download " data-wow-delay="0.499s"><img src="<?php echo get_template_directory_uri(); ?>/images/app.png" alt=""></a>
 									</div>
 
 
@@ -290,7 +290,7 @@
 
 								</div>
 							</div>
-							<div class="image-wrapper-one right-side"><img src="<?php echo get_template_directory_uri(); ?>/images/home/shape-8.png" alt="" class="wow rollIn" data-wow-delay="0.4s" data-wow-duration="1.5s"></div>
+							<div class="image-wrapper-one right-side"><img src="<?php echo get_template_directory_uri(); ?>/images/home/test.png" alt="" class="wow rollIn" data-wow-delay="0.4s" data-wow-duration="1.5s"></div>
 						</div>
 					</div>
 				</div> <!-- /.main-content -->

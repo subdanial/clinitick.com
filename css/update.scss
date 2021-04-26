@@ -61,7 +61,8 @@ h6,
 
 .theme-main-header .logo {
     margin-top: -20px;
-    img{
+
+    img {
         height: 60px;
     }
 }
@@ -120,7 +121,7 @@ li {
     }
 
     .logo {
-        img{
+        img {
             padding-top: 1.2rem;
             width: 60%;
         }
@@ -145,4 +146,19 @@ li {
 
 .our-features .single-feature p {
     font-family: 'yekan';
+}
+
+.btn-download {
+    img {
+        height: 58px;
+        margin: 10px;
+    }
+}
+
+
+.download-section .text-wrapper .image-wrapper-one {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    transform: rotate(0deg);
 }
