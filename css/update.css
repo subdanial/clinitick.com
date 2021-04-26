@@ -163,4 +163,23 @@ li.u-home {
 #theme-main-banner.banner-three {
   margin-bottom: 48px;
 }
+
+.customers-need .text-wrapper ul li {
+  position: relative;
+  padding-left: 50px;
+}
+
+.customers-need .text-wrapper ul li:first-child {
+  margin-top: -10px;
+}
+
+.shadow {
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.app-item {
+  padding: 25px;
+  border-radius: 5px;
+}
 /*# sourceMappingURL=update.css.map */

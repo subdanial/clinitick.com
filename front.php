@@ -176,17 +176,17 @@
 									</div>
 
 									<ul class="rtl">
-										<li>
+										<li class="shadow js-item app-item">
 
 											<h3><?php echo ot_get_option('app1_title'); ?></h3>
 											<p> <?php echo ot_get_option('app1_describe'); ?> </p>
 										</li>
-										<li>
+										<li class="shadow js-item app-item">
 											<h3><?php echo ot_get_option('app2_title'); ?></h3>
 											<p> <?php echo ot_get_option('app2_describe'); ?> </p>
 
 										</li>
-										<li>
+										<li class="shadow js-item app-item">
 											<h3><?php echo ot_get_option('app3_title'); ?></h3>
 											<p> <?php echo ot_get_option('app3_describe'); ?> </p>
 										</li>
