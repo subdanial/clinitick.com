@@ -195,7 +195,7 @@ li.u-home {
 
 @media (max-width: 992px) {
   .d-none-mobile {
-    display: none;
+    display: none !important;
   }
 }
 /*# sourceMappingURL=update.css.map */
