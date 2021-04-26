@@ -149,4 +149,8 @@ li.u-home {
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
 }
+
+.text-center p {
+  text-align: center;
+}
 /*# sourceMappingURL=update.css.map */
